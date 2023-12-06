@@ -1,0 +1,193 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GPv2TradeTestInterface",
+  "sourceName": "src/contracts/test/GPv2TradeTestInterface.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "flags",
+          "type": "uint256"
+        }
+      ],
+      "name": "extractFlagsTest",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "kind",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "partiallyFillable",
+          "type": "bool"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "sellTokenBalance",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "buyTokenBalance",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "enum GPv2Signing.Scheme",
+          "name": "signingScheme",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract IERC20[]",
+          "name": "tokens",
+          "type": "address[]"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "sellTokenIndex",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "buyTokenIndex",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "receiver",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "sellAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "buyAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint32",
+              "name": "validTo",
+              "type": "uint32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "appData",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "uint256",
+              "name": "feeAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "flags",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "executedAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "signature",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct GPv2Trade.Data",
+          "name": "trade",
+          "type": "tuple"
+        }
+      ],
+      "name": "extractOrderTest",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "contract IERC20",
+              "name": "sellToken",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IERC20",
+              "name": "buyToken",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "receiver",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "sellAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "buyAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint32",
+              "name": "validTo",
+              "type": "uint32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "appData",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "uint256",
+              "name": "feeAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "kind",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bool",
+              "name": "partiallyFillable",
+              "type": "bool"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "sellTokenBalance",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "buyTokenBalance",
+              "type": "bytes32"
+            }
+          ],
+          "internalType": "struct GPv2Order.Data",
+          "name": "order",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610561806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806317eb45ff1461003b57806318dc98f514610068575b600080fd5b61004e6100493660046103ff565b610088565b60405161005f959493929190610441565b60405180910390f35b61007b610076366004610368565b6100ab565b60405161005f9190610478565b6000806000806000610099866100c7565b939a9299509097509550909350915050565b6100b3610304565b6100bf8285858461021c565b509392505050565b600080808080600186166100fd577ff3b277728b3fee749481eb3e0b3b48980dbbab78658fc419025cb16eee3467759450610121565b7f6ed88e868af0a1983e3886d5f3e95a2fafbd6c3450bc229e27342283dc429ccc94505b600286161515935060088616610159577f5a28e9363bb942b639270062aa6bb295f434bcdfc42c97267bf003f272060dc992506101ad565b60048616610189577fabee3b73373acd583a130924aad6dc38cfdc44ba0555ba94ce2ff63980ea063292506101ad565b7f4ac99ace14ee0a5ef932dc609df0943ab7ac16b7583634612f8dc35a4289a6ce92505b601086166101dd577f5a28e9363bb942b639270062aa6bb295f434bcdfc42c97267bf003f272060dc99150610201565b7f4ac99ace14ee0a5ef932dc609df0943ab7ac16b7583634612f8dc35a4289a6ce91505b600586901c600381111561021157fe5b905091939590929450565b60008383863581811061022b57fe5b6020908102929092013573ffffffffffffffffffffffffffffffffffffffff168452508490849087013581811061025e57fe5b73ffffffffffffffffffffffffffffffffffffffff602091820293909301358316908501525060408087013590911690830152606080860135908301526080808601359083015263ffffffff60a080870135919091169083015260c0808601359083015260e080860135908301526102da6101008601356100c7565b61016087019190915261014086019190915290151561012085015261010090930152509392505050565b6040805161018081018252600080825260208201819052918101829052606081018290526080810182905260a0810182905260c0810182905260e0810182905261010081018290526101208101829052610140810182905261016081019190915290565b60008060006040848603121561037c578283fd5b833567ffffffffffffffff80821115610393578485fd5b818601915086601f8301126103a6578485fd5b8135818111156103b4578586fd5b87602080830285010111156103c7578586fd5b6020928301955093509085013590808211156103e1578283fd5b50840161016081870312156103f4578182fd5b809150509250925092565b600060208284031215610410578081fd5b5035919050565b73ffffffffffffffffffffffffffffffffffffffff169052565b15159052565b63ffffffff169052565b8581528415156020820152604081018490526060810183905260a081016004831061046857fe5b8260808301529695505050505050565b60006101808201905061048c828451610417565b602083015161049e6020840182610417565b5060408301516104b16040840182610417565b50606083015160608301526080830151608083015260a08301516104d860a0840182610437565b5060c083015160c083015260e083015160e08301526101008084015181840152506101208084015161050c82850182610431565b505061014083810151908301526101609283015192909101919091529056fea2646970667358221220c5860b8921ae8fc7027449ad6e48bd582353bdb4618bbbf9dff372f8e48ec2bd64736f6c63430007060033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806317eb45ff1461003b57806318dc98f514610068575b600080fd5b61004e6100493660046103ff565b610088565b60405161005f959493929190610441565b60405180910390f35b61007b610076366004610368565b6100ab565b60405161005f9190610478565b6000806000806000610099866100c7565b939a9299509097509550909350915050565b6100b3610304565b6100bf8285858461021c565b509392505050565b600080808080600186166100fd577ff3b277728b3fee749481eb3e0b3b48980dbbab78658fc419025cb16eee3467759450610121565b7f6ed88e868af0a1983e3886d5f3e95a2fafbd6c3450bc229e27342283dc429ccc94505b600286161515935060088616610159577f5a28e9363bb942b639270062aa6bb295f434bcdfc42c97267bf003f272060dc992506101ad565b60048616610189577fabee3b73373acd583a130924aad6dc38cfdc44ba0555ba94ce2ff63980ea063292506101ad565b7f4ac99ace14ee0a5ef932dc609df0943ab7ac16b7583634612f8dc35a4289a6ce92505b601086166101dd577f5a28e9363bb942b639270062aa6bb295f434bcdfc42c97267bf003f272060dc99150610201565b7f4ac99ace14ee0a5ef932dc609df0943ab7ac16b7583634612f8dc35a4289a6ce91505b600586901c600381111561021157fe5b905091939590929450565b60008383863581811061022b57fe5b6020908102929092013573ffffffffffffffffffffffffffffffffffffffff168452508490849087013581811061025e57fe5b73ffffffffffffffffffffffffffffffffffffffff602091820293909301358316908501525060408087013590911690830152606080860135908301526080808601359083015263ffffffff60a080870135919091169083015260c0808601359083015260e080860135908301526102da6101008601356100c7565b61016087019190915261014086019190915290151561012085015261010090930152509392505050565b6040805161018081018252600080825260208201819052918101829052606081018290526080810182905260a0810182905260c0810182905260e0810182905261010081018290526101208101829052610140810182905261016081019190915290565b60008060006040848603121561037c578283fd5b833567ffffffffffffffff80821115610393578485fd5b818601915086601f8301126103a6578485fd5b8135818111156103b4578586fd5b87602080830285010111156103c7578586fd5b6020928301955093509085013590808211156103e1578283fd5b50840161016081870312156103f4578182fd5b809150509250925092565b600060208284031215610410578081fd5b5035919050565b73ffffffffffffffffffffffffffffffffffffffff169052565b15159052565b63ffffffff169052565b8581528415156020820152604081018490526060810183905260a081016004831061046857fe5b8260808301529695505050505050565b60006101808201905061048c828451610417565b602083015161049e6020840182610417565b5060408301516104b16040840182610417565b50606083015160608301526080830151608083015260a08301516104d860a0840182610437565b5060c083015160c083015260e083015160e08301526101008084015181840152506101208084015161050c82850182610431565b505061014083810151908301526101609283015192909101919091529056fea2646970667358221220c5860b8921ae8fc7027449ad6e48bd582353bdb4618bbbf9dff372f8e48ec2bd64736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

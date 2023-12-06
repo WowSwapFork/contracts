@@ -1,0 +1,2571 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/GPv2AllowListAuthentication.sol": {
+      "lastModificationDate": 1701210247736,
+      "contentHash": "978f33b1f5dd911bdbba513f2baeaf5c",
+      "sourceName": "src/contracts/GPv2AllowListAuthentication.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/GPv2Authentication.sol",
+        "./libraries/GPv2EIP1967.sol",
+        "./mixins/Initializable.sol",
+        "./mixins/StorageAccessible.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2AllowListAuthentication"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/interfaces/GPv2Authentication.sol": {
+      "lastModificationDate": 1701210247737,
+      "contentHash": "00d7364b944ecb30b93d1917c5215ffd",
+      "sourceName": "src/contracts/interfaces/GPv2Authentication.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Authentication"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2EIP1967.sol": {
+      "lastModificationDate": 1701210247738,
+      "contentHash": "779db3ae3c4f32367e23932f081e4950",
+      "sourceName": "src/contracts/libraries/GPv2EIP1967.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2EIP1967"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/mixins/Initializable.sol": {
+      "lastModificationDate": 1701210247740,
+      "contentHash": "322e0d793274ad7169c7c40bf5b187e1",
+      "sourceName": "src/contracts/mixins/Initializable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/mixins/StorageAccessible.sol": {
+      "lastModificationDate": 1701210247741,
+      "contentHash": "9ed2846a6f4304027b1981ef4ff87c8f",
+      "sourceName": "src/contracts/mixins/StorageAccessible.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "StorageAccessible",
+        "ViewStorageAccessible"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2AllowListAuthenticationV2.sol": {
+      "lastModificationDate": 1701210247743,
+      "contentHash": "c68f97cd08a53fc8211f46acd9093686",
+      "sourceName": "src/contracts/test/GPv2AllowListAuthenticationV2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../GPv2AllowListAuthentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2AllowListAuthenticationV2"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2AllowListAuthenticationTestInterface.sol": {
+      "lastModificationDate": 1701210247742,
+      "contentHash": "81e6d39306d3be3cd19c09c14974146a",
+      "sourceName": "src/contracts/test/GPv2AllowListAuthenticationTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../GPv2AllowListAuthentication.sol",
+        "../libraries/GPv2EIP1967.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2AllowListAuthenticationTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/vendor/StorageAccessibleWrapper.sol": {
+      "lastModificationDate": 1701210247746,
+      "contentHash": "cf547290a0e1a415f7b796167a1bda5e",
+      "sourceName": "src/contracts/test/vendor/StorageAccessibleWrapper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../mixins/StorageAccessible.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ExternalStorageReader",
+        "StorageAccessibleWrapper"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/GPv2Settlement.sol": {
+      "lastModificationDate": 1701210247736,
+      "contentHash": "d00e3c497cdc1e5bd120dfa1a082a0b5",
+      "sourceName": "src/contracts/GPv2Settlement.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GPv2VaultRelayer.sol",
+        "./interfaces/GPv2Authentication.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IVault.sol",
+        "./libraries/GPv2Interaction.sol",
+        "./libraries/GPv2Order.sol",
+        "./libraries/GPv2Trade.sol",
+        "./libraries/GPv2Transfer.sol",
+        "./libraries/SafeCast.sol",
+        "./libraries/SafeMath.sol",
+        "./mixins/GPv2Signing.sol",
+        "./mixins/ReentrancyGuard.sol",
+        "./mixins/StorageAccessible.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Settlement"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/GPv2VaultRelayer.sol": {
+      "lastModificationDate": 1701210247736,
+      "contentHash": "feb4c4edfd39a71d628e7f0afb3a7e1a",
+      "sourceName": "src/contracts/GPv2VaultRelayer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol",
+        "./interfaces/IVault.sol",
+        "./libraries/GPv2Transfer.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2VaultRelayer"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1701210247737,
+      "contentHash": "9bdc9cc54fe075a6fd9f6e7c67867ffe",
+      "sourceName": "src/contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/interfaces/IVault.sol": {
+      "lastModificationDate": 1701210247737,
+      "contentHash": "83564700b7ba7427c5cdaac8a18f08b1",
+      "sourceName": "src/contracts/interfaces/IVault.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IVault"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2Interaction.sol": {
+      "lastModificationDate": 1701210247738,
+      "contentHash": "c9c5a959758a44fd78b30718be4b58f1",
+      "sourceName": "src/contracts/libraries/GPv2Interaction.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Interaction"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2Order.sol": {
+      "lastModificationDate": 1701210247738,
+      "contentHash": "29931a64ea0a785594294261f0bfff19",
+      "sourceName": "src/contracts/libraries/GPv2Order.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Order"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2Trade.sol": {
+      "lastModificationDate": 1701210247739,
+      "contentHash": "c42942d2ceed6188452590e7a41733f5",
+      "sourceName": "src/contracts/libraries/GPv2Trade.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol",
+        "../mixins/GPv2Signing.sol",
+        "./GPv2Order.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Trade"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2Transfer.sol": {
+      "lastModificationDate": 1701210247739,
+      "contentHash": "d3efa2ab2dfadcf27ad12fb142279794",
+      "sourceName": "src/contracts/libraries/GPv2Transfer.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol",
+        "../interfaces/IVault.sol",
+        "./GPv2Order.sol",
+        "./GPv2SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Transfer"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/SafeCast.sol": {
+      "lastModificationDate": 1701210247739,
+      "contentHash": "7c909598cfc5f57a4a03580b9784a85b",
+      "sourceName": "src/contracts/libraries/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/mixins/GPv2Signing.sol": {
+      "lastModificationDate": 1701210247740,
+      "contentHash": "9a05c35966f192272975c5f32011fb18",
+      "sourceName": "src/contracts/mixins/GPv2Signing.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/GPv2EIP1271.sol",
+        "../libraries/GPv2Order.sol",
+        "../libraries/GPv2Trade.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2Signing"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/mixins/ReentrancyGuard.sol": {
+      "lastModificationDate": 1701210247741,
+      "contentHash": "d53368cc6a31e3fbfb4eda61d30b43d0",
+      "sourceName": "src/contracts/mixins/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1701210247740,
+      "contentHash": "9f625e1bb07c25ccdf4406bce8dcfb42",
+      "sourceName": "src/contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/libraries/GPv2SafeERC20.sol": {
+      "lastModificationDate": 1701210247738,
+      "contentHash": "7e76f975b434cf2063ec0df29833a777",
+      "sourceName": "src/contracts/libraries/GPv2SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2SafeERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/interfaces/GPv2EIP1271.sol": {
+      "lastModificationDate": 1701210247737,
+      "contentHash": "d1f92481756e50eb63c250c288c9b482",
+      "sourceName": "src/contracts/interfaces/GPv2EIP1271.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "EIP1271Verifier",
+        "GPv2EIP1271"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/SmartSellOrder.sol": {
+      "lastModificationDate": 1701210247745,
+      "contentHash": "b31c12eeb28a6f610804abfec1413176",
+      "sourceName": "src/contracts/test/SmartSellOrder.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/GPv2EIP1271.sol",
+        "../interfaces/IERC20.sol",
+        "../libraries/GPv2Order.sol",
+        "../libraries/GPv2SafeERC20.sol",
+        "../libraries/SafeMath.sol",
+        "../GPv2Settlement.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "SmartSellOrder"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/NonStandardERC20.sol": {
+      "lastModificationDate": 1701210247744,
+      "contentHash": "fe5b9a67776dad8efaa4e4ab221eddeb",
+      "sourceName": "src/contracts/test/NonStandardERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "ERC20NoReturn",
+        "ERC20ReturningUint",
+        "NonStandardERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2SafeERC20TestInterface.sol": {
+      "lastModificationDate": 1701210247743,
+      "contentHash": "b5e8329c3b6dcb92c22f6df7525cd7b1",
+      "sourceName": "src/contracts/test/GPv2SafeERC20TestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol",
+        "../libraries/GPv2SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2SafeERC20TestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2TransferTestInterface.sol": {
+      "lastModificationDate": 1701210247744,
+      "contentHash": "1dd1c5dae5d71d412f4bd3d83ab00160",
+      "sourceName": "src/contracts/test/GPv2TransferTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/GPv2Transfer.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2TransferTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2SettlementTestInterface.sol": {
+      "lastModificationDate": 1701210247743,
+      "contentHash": "d69b1d0cee38fd03bb81257c86e1c8ad",
+      "sourceName": "src/contracts/test/GPv2SettlementTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../GPv2Settlement.sol",
+        "../libraries/GPv2Interaction.sol",
+        "../libraries/GPv2Trade.sol",
+        "../libraries/GPv2Transfer.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2SettlementTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2TradeTestInterface.sol": {
+      "lastModificationDate": 1701210247744,
+      "contentHash": "4bbee0d275122026a75af16e2df94f47",
+      "sourceName": "src/contracts/test/GPv2TradeTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/GPv2Order.sol",
+        "../libraries/GPv2Trade.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2TradeTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2SigningTestInterface.sol": {
+      "lastModificationDate": 1701210247744,
+      "contentHash": "31fbbfe52d5ad233fc00f3c7e15b55ce",
+      "sourceName": "src/contracts/test/GPv2SigningTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/GPv2Order.sol",
+        "../libraries/GPv2Trade.sol",
+        "../mixins/GPv2Signing.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2SigningTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/StateChangingERC1271.sol": {
+      "lastModificationDate": 1701210247745,
+      "contentHash": "ac7b359c0560fb8d769c2c59da39f6c2",
+      "sourceName": "src/contracts/test/StateChangingERC1271.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/GPv2EIP1271.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "StateChangingEIP1271"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2OrderTestInterface.sol": {
+      "lastModificationDate": 1701210247743,
+      "contentHash": "81800cab49e787143f1df3e2e0794969",
+      "sourceName": "src/contracts/test/GPv2OrderTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/GPv2Order.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2OrderTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/GPv2InteractionTestInterface.sol": {
+      "lastModificationDate": 1701210247743,
+      "contentHash": "8c8a8c0856efc5834570c12dac83d0e2",
+      "sourceName": "src/contracts/test/GPv2InteractionTestInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/GPv2Interaction.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2InteractionTestInterface"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/reader/GPv2TradeSimulator.sol": {
+      "lastModificationDate": 1701210247741,
+      "contentHash": "06cb0b8bb5115dd736aa09406d2dfea3",
+      "sourceName": "src/contracts/reader/GPv2TradeSimulator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../GPv2Settlement.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "GPv2TradeSimulator"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/reader/AllowListStorageReader.sol": {
+      "lastModificationDate": 1701210247741,
+      "contentHash": "99ec646e52d534c2260a4661008b131f",
+      "sourceName": "src/contracts/reader/AllowListStorageReader.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "AllowListStorageReader"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/reader/SettlementStorageReader.sol": {
+      "lastModificationDate": 1701210247742,
+      "contentHash": "7bada89c6b6a416234e3aaafc855798b",
+      "sourceName": "src/contracts/reader/SettlementStorageReader.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "SettlementStorageReader"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/ERC20PresetPermit.sol": {
+      "lastModificationDate": 1701210247742,
+      "contentHash": "d403ba11442687a48d068015fd89fa40",
+      "sourceName": "src/contracts/test/ERC20PresetPermit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/drafts/ERC20Permit.sol",
+        "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "ERC20PresetPermit"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol": {
+      "lastModificationDate": 1701257312085,
+      "contentHash": "152354db17cf6801d992a8a518a06e5f",
+      "sourceName": "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../access/AccessControl.sol",
+        "../utils/Context.sol",
+        "../token/ERC20/ERC20.sol",
+        "../token/ERC20/ERC20Burnable.sol",
+        "../token/ERC20/ERC20Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20PresetMinterPauser"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/drafts/ERC20Permit.sol": {
+      "lastModificationDate": 1701257312083,
+      "contentHash": "d3da235724edc8bc7d00aedca06d3274",
+      "sourceName": "@openzeppelin/contracts/drafts/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/ERC20/ERC20.sol",
+        "./IERC20Permit.sol",
+        "../cryptography/ECDSA.sol",
+        "../utils/Counters.sol",
+        "./EIP712.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.5 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1701257312086,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/access/AccessControl.sol": {
+      "lastModificationDate": 1701257312081,
+      "contentHash": "6b30e1ed8d604f14ebfc2e1707346c38",
+      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/EnumerableSet.sol",
+        "../utils/Address.sol",
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol": {
+      "lastModificationDate": 1701257316210,
+      "contentHash": "1f7a6465c50e33bb5edd4c01be41f50b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1701257316210,
+      "contentHash": "52659a61e7fb46afdc3d0f00c3a87da6",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol": {
+      "lastModificationDate": 1701257316212,
+      "contentHash": "4798cf24900a0dce52586d42975fd816",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "../../utils/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Pausable"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1701257312090,
+      "contentHash": "67da1a55369b7665b43457144add6761",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1701257312086,
+      "contentHash": "fc7c67d7b17cde979a685143a26b2bc8",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1701257312083,
+      "contentHash": "871a094d6b6b4c3714946e86329f2fa2",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1701257316215,
+      "contentHash": "70ec621ea910798b6c590a0b402a5bb9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/utils/Pausable.sol": {
+      "lastModificationDate": 1701257312089,
+      "contentHash": "76ded95f5a12004766ba82df351fe7de",
+      "sourceName": "@openzeppelin/contracts/utils/Pausable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1701257312087,
+      "contentHash": "ebd32d219072a0232add3f1bb610731f",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1701257312082,
+      "contentHash": "e20d6c1a44aff02acbfd4696f53087e5",
+      "sourceName": "@openzeppelin/contracts/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/drafts/EIP712.sol": {
+      "lastModificationDate": 1701257312083,
+      "contentHash": "978da83ab8d1ff945e5d117d3ab7daab",
+      "sourceName": "@openzeppelin/contracts/drafts/EIP712.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/drafts/IERC20Permit.sol": {
+      "lastModificationDate": 1701257312083,
+      "contentHash": "554ef6825dd2112860a7f82be25dab45",
+      "sourceName": "@openzeppelin/contracts/drafts/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/TestERC20.sol": {
+      "lastModificationDate": 1701210247745,
+      "contentHash": "c312800fb38e88da231f35e89f7ef48e",
+      "sourceName": "src/contracts/test/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/FeeClaimingERC20.sol": {
+      "lastModificationDate": 1701210247742,
+      "contentHash": "ef0837000da00bf4f4b7b90bec36e85a",
+      "sourceName": "src/contracts/test/FeeClaimingERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "FeeClaimingERC20"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/vendor/ChiToken.sol": {
+      "lastModificationDate": 1701210247745,
+      "contentHash": "e3974a53bf2c439970917d042a6ec1d1",
+      "sourceName": "src/contracts/test/vendor/ChiToken.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "ChiToken",
+        "ERC20WithoutTotalSupply"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/node_modules/@openzeppelin/contracts/math/Math.sol": {
+      "lastModificationDate": 1701257312082,
+      "contentHash": "1b2b41cf411fe29db7d5774de77e9d6d",
+      "sourceName": "@openzeppelin/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/EventEmitter.sol": {
+      "lastModificationDate": 1701210247742,
+      "contentHash": "96b6f2b2df0c1edd98e2b2b740008080",
+      "sourceName": "src/contracts/test/EventEmitter.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "EventEmitter"
+      ]
+    },
+    "/Users/shahzeb/Desktop/projects/clients/rynhckman/cowswap/contracts/src/contracts/test/NonPayable.sol": {
+      "lastModificationDate": 1701210247744,
+      "contentHash": "8148673860b881dfc000b3f7736cd903",
+      "sourceName": "src/contracts/test/NonPayable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "NonPayable"
+      ]
+    }
+  }
+}

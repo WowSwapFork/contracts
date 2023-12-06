@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GPv2InteractionTestInterface",
+  "sourceName": "src/contracts/test/GPv2InteractionTestInterface.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "callData",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct GPv2Interaction.Data",
+          "name": "interaction",
+          "type": "tuple"
+        }
+      ],
+      "name": "executeTest",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "callData",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct GPv2Interaction.Data",
+          "name": "interaction",
+          "type": "tuple"
+        }
+      ],
+      "name": "selectorTest",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061023b806100206000396000f3fe60806040526004361061002d5760003560e01c80637d787b4014610039578063c3b9aeb81461006f57610034565b3661003457005b600080fd5b34801561004557600080fd5b5061005961005436600461012f565b610091565b604051610066919061016e565b60405180910390f35b34801561007b57600080fd5b5061008f61008a36600461012f565b6100a2565b005b600061009c826100ae565b92915050565b6100ab816100d8565b50565b600036816100bf604085018561019b565b9092509050600481106100d157813592505b5050919050565b73ffffffffffffffffffffffffffffffffffffffff8135166020820135366000610105604086018661019b565b9150915060405181838237600080838387895af1610127573d6000803e3d6000fd5b505050505050565b600060208284031215610140578081fd5b813567ffffffffffffffff811115610156578182fd5b820160608185031215610167578182fd5b9392505050565b7fffffffff0000000000000000000000000000000000000000000000000000000091909116815260200190565b60008083357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe18436030181126101cf578283fd5b83018035915067ffffffffffffffff8211156101e9578283fd5b6020019150368190038213156101fe57600080fd5b925092905056fea2646970667358221220e553806e6fe2e0f52ac1295507af35855a9bfed5b9b4acc03111d474912d3d0a64736f6c63430007060033",
+  "deployedBytecode": "0x60806040526004361061002d5760003560e01c80637d787b4014610039578063c3b9aeb81461006f57610034565b3661003457005b600080fd5b34801561004557600080fd5b5061005961005436600461012f565b610091565b604051610066919061016e565b60405180910390f35b34801561007b57600080fd5b5061008f61008a36600461012f565b6100a2565b005b600061009c826100ae565b92915050565b6100ab816100d8565b50565b600036816100bf604085018561019b565b9092509050600481106100d157813592505b5050919050565b73ffffffffffffffffffffffffffffffffffffffff8135166020820135366000610105604086018661019b565b9150915060405181838237600080838387895af1610127573d6000803e3d6000fd5b505050505050565b600060208284031215610140578081fd5b813567ffffffffffffffff811115610156578182fd5b820160608185031215610167578182fd5b9392505050565b7fffffffff0000000000000000000000000000000000000000000000000000000091909116815260200190565b60008083357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe18436030181126101cf578283fd5b83018035915067ffffffffffffffff8211156101e9578283fd5b6020019150368190038213156101fe57600080fd5b925092905056fea2646970667358221220e553806e6fe2e0f52ac1295507af35855a9bfed5b9b4acc03111d474912d3d0a64736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

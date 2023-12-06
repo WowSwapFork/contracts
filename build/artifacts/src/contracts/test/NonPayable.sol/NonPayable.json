@@ -1,0 +1,15 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "NonPayable",
+  "sourceName": "src/contracts/test/NonPayable.sol",
+  "abi": [
+    {
+      "stateMutability": "nonpayable",
+      "type": "fallback"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50604880601d6000396000f3fe6080604052348015600f57600080fd5b5000fea26469706673582212207694a995d42f55614110e961fe7c974202702503522b3815c4c13ebc9ab023f264736f6c63430007060033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5000fea26469706673582212207694a995d42f55614110e961fe7c974202702503522b3815c4c13ebc9ab023f264736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

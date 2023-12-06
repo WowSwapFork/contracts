@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EventEmitter",
+  "sourceName": "src/contracts/test/EventEmitter.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "number",
+          "type": "uint256"
+        }
+      ],
+      "name": "Event",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "number",
+          "type": "uint256"
+        }
+      ],
+      "name": "emitEvent",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060b18061001e6000396000f3fe608060405260043610601c5760003560e01c80634d43bec9146021575b600080fd5b603b60048036036020811015603557600080fd5b5035603d565b005b604080513481526020810183905281517f34e802e5ebd1f132e05852c5064046c1b535831ec52f1c4997fc6fdc4d5345b3929181900390910190a15056fea2646970667358221220a37fa36a0acb1a2417bdb80e7a36a35248eecc52879460593eee6c7a0e931c1e64736f6c63430007060033",
+  "deployedBytecode": "0x608060405260043610601c5760003560e01c80634d43bec9146021575b600080fd5b603b60048036036020811015603557600080fd5b5035603d565b005b604080513481526020810183905281517f34e802e5ebd1f132e05852c5064046c1b535831ec52f1c4997fc6fdc4d5345b3929181900390910190a15056fea2646970667358221220a37fa36a0acb1a2417bdb80e7a36a35248eecc52879460593eee6c7a0e931c1e64736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
